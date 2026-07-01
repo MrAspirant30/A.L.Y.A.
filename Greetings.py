@@ -1,10 +1,10 @@
-import USER_PROFILE
-
 time = str(input("Enter the Morning/Afternoon/Evening:\t"))
 
-morning = 1
-afternoon = 1
-evening = 1
-
-if time == morning:
-    print("Good morning")
+if time == "Morning":
+    print("Good morning,")
+elif time == "Afternoon":
+    print("Good afternoon,")
+elif time == "Evening":
+    print("Good evening,")
+else:
+    print("Wrong input!")
