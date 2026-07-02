@@ -1,7 +1,7 @@
 print(" =============================================\n ")
 print("               VERSION - 0.1                  \n ")
 print(" =============================================\n ")
-print("Hello, SIR/MA'AM.\n")
+print("Hello, SIR/MA'AM\n")
 
 name= input("I'm A.L.Y.A., What's your name?\n")
 print(f"Welcome, {name}. It's nice to meet you!\n")
