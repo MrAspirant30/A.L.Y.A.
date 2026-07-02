@@ -7,7 +7,5 @@ match choice:
         print("Tell me about the situation to be simulated\n")
     case "C" | "c":
         print("Let's discuss on the topic\n")
-    case "D" | "d":
-        print("Tell me what you wanna do today\n")
     case _:
-        print("")
+        print("Tell me what you wanna do today\n")
