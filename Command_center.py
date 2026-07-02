@@ -8,4 +8,4 @@ match choice:
     case "C" | "c":
         print("Let's discuss on the topic\n")
     case _:
-        print("Tell me what you wanna do today\n")
+        print("Tell me what you wanna do today or should I suggest what can we do today?\n")
