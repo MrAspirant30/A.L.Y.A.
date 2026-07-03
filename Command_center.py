@@ -1,4 +1,3 @@
-print("To exit type \"exit\" ")
 choice = input("Enter your choice(A/B/C):\nA. Research on any topic\nB. Simulation of any hypothetical situation\nC. Discussion of any topic\n")
 
 while 1:
@@ -12,10 +11,6 @@ while 1:
             break
         case "C" | "c":
             print("Let's discuss on the topic\n")
-            break
-    elif choice == "exit" or "Exit":
-            print("Tell me what you wanna do today or should I suggest what can we do today?\n")    
+            break  
     else:
         print("Tell me what you wanna do today or should I suggest something?")
-
-print("You've exited!")
