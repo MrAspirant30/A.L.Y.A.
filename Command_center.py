@@ -2,7 +2,7 @@ while 1:
      print("=" * 50)
      print("A.L.Y.A. Command Centre".center(50))
      print("=" * 50)
-     choice = input("\nA. Research on any topic\nB. Simulation of any hypothetical situation\nC. Discussion of any topic\n\nChoic: ")
+     choice = input("\nA. Research on any topic\nB. Simulation of any hypothetical situation\nC. Discussion of any topic\n\nChoice: ")
      match choice:
         case "A" | "a":
             print("Let's research on the topic\n")
