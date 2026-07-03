@@ -1,9 +1,9 @@
 print("=" * 50)
 print("VERSION - 0.1".center(50))
 print("=" * 50)
-print("Hello, SIR/MA'AM\n")
+print("Hello, I'm A.L.Y.A.\n")
 
-name= input("I'm A.L.Y.A., What's your name?\n")
+name= input("What's your name?\n")
 print(f"Welcome, {name}. It's nice to meet you!\n")
 
 print("I'm gonna ask you some questions to build your profile in my database\n")
