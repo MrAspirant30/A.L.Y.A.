@@ -1,6 +1,6 @@
-print(" =============================================\n ")
-print("               VERSION - 0.1                  \n ")
-print(" =============================================\n ")
+print("=" * 50)
+print("VERSION - 0.1".center(50))
+print("=" * 50)
 print("Hello, SIR/MA'AM\n")
 
 name= input("I'm A.L.Y.A., What's your name?\n")
