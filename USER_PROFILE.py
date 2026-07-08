@@ -1,8 +1,11 @@
 import random
 
-print("=" * 50)
-print("VERSION - 0.1".center(50))
-print("=" * 50)
+def banner():
+ print("=" * 50)
+ print("VERSION - 0.1".center(50))
+ print("=" * 50)
+
+banner()
 
 greetings = [
     "Ready to assist you today.",
