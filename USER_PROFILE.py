@@ -5,8 +5,10 @@ def banner():
  print("VERSION - 0.1".center(50))
  print("=" * 50)
 
+# Displays the A.L.Y.A. version banner
 banner()
 
+# Different greetings shown randomly at startup
 greetings = [
     "Ready to assist you today.",
     "Let's get started.",
@@ -21,8 +23,11 @@ greetings = [
 ]
 
 print("\nHello, I'm A.L.Y.A.\n")
+
+# Display a random greeting each time A.L.Y.A. starts
 print(random.choice(greetings))
 
+# Collect user information
 name= input("\nWhat's your name?\n")
 print(f"Welcome, {name}. It's nice to meet you!\n")
 

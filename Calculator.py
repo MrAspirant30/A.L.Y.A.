@@ -1,8 +1,10 @@
+# Basic calculator module
 print("=" * 50)
 print("Calculator Mode".center(50))
 print("=" * 50)
 
-while 1 :
+# Calculator menu
+while True :
  print("[A] Addition\n[B] Substraction\n[C] Multiplication\n[D] Division\n")
  choice = input("choice: ")
  match choice :
