@@ -1,5 +1,6 @@
 # Main command loop
-while True:
+def run():
+   while True:
      print("=" * 50)
      print("A.L.Y.A. Command Centre".center(50))
      print("=" * 50)
