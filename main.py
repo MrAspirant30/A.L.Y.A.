@@ -1,7 +1,6 @@
-import modules.bmi
-
+from modules import bmi
 from modules import calculator
-calculator.run()
+from modules import command_center
+from modules import length_converter
 
-import modules.length_converter
-import modules.command_center
+bmi.run()
