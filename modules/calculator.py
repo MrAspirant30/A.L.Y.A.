@@ -6,7 +6,7 @@ def run():
 
  # Calculator menu
  while True :
-  print("[A] Addition\n[B] Substraction\n[C] Multiplication\n[D] Division\n")
+  print("[A] Addition\n[B] Substraction\n[C] Multiplication\n[D] Division\n[E] Exit\n")
   choice = input("choice: ")
   match choice :
    case "A":
@@ -27,5 +27,7 @@ def run():
     b = float(input("\nEnter 2nd number: "))
     print(f"\n{a} % {b} = {a/b: .2f}\n")
     print(f"{b} % {a} = {b/a: .2f}")
+   case "E":
+    break
    case _:
     print("\nIncorrect choice!")
