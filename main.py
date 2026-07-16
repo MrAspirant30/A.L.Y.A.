@@ -22,10 +22,18 @@ def handle_choice(user_choice):
    command_center.run()
   case 4:
    length_converter.run()
+  case 0:
+   return False
+  case _:
+    print("Invalid Choice!")
+ return True
 
 while True:
  show_banner()
  show_menu()
  choice = get_choice()
  handle_choice(choice)
+ if not handle_choice(choice):
+    print("\nThank you for using A.L.Y.A. 👋")
+    break
  
