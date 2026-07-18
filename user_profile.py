@@ -24,7 +24,7 @@ greetings = [
 
 print("\nHello, I'm A.L.Y.A.\n")
 
-# Display a random greeting each time A.L.Y.A. starts
+# Display a random greeting each time A.L.Y.A. start
 print(random.choice(greetings))
 
 # Collect user information
