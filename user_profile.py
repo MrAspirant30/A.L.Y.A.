@@ -28,7 +28,7 @@ print("\nHello, I'm A.L.Y.A.\n")
 print(random.choice(greetings))
 
 # Collect user information
-name= input("\nWhat's your name?")
+name= input("\nWhat's your name?\n")
 print(f"Welcome, {name}. It's nice to meet you!\n")
 
 print("I'm gonna ask you some questions to build your profile in my database\n")
